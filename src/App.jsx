@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs.jsx';
 import Vision from './components/Vision.jsx';
 import Events from './components/Events.jsx';
 import Team from './components/Team.jsx';
+import Footer from './components/Footer.jsx';
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-blue-900 to-black relative overflow-hidden">
@@ -29,7 +30,7 @@ export default function App() {
       <Vision />
       <Events />
       <Team />
-      
+      <Footer />
         {/* Decorative Elements */}
       <div className="absolute top-20 right-40 w-32 h-32 border-2 border-purple-400 rounded-full opacity-20"></div>
       <div className="absolute bottom-40 left-20 w-24 h-24 border-2 border-purple-400 rounded-full opacity-20"></div>
