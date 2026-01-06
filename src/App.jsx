@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs.jsx';
 import Vision from './components/Vision.jsx';
 import Events from './components/Events.jsx';
 import Team from './components/Team.jsx';
+import Memories from './components/Memories.jsx';
 import Footer from './components/Footer.jsx';
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
       <Vision />
       <Events />
       <Team />
+      <Memories />
       <Footer />
         {/* Decorative Elements */}
       <div className="absolute top-20 right-40 w-32 h-32 border-2 border-purple-400 rounded-full opacity-20"></div>
