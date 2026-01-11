@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Github, Linkedin } from "lucide-react";
 
-import teamMembers from "../data/teamMembers";
+import teamMembers from "../data/teammembers.js";
 
 const positions = [
   "Senior Associate Member",
