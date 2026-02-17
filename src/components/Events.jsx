@@ -3,11 +3,11 @@ import MascotVision from "../assets/mascot_vision.png"; // use your about mascot
 import { Rocket } from 'lucide-react';
 import RocketVision from "../assets/rocket_vision.png"; // use your vision rocket
 const events = [
-    { id: 1, title: 'Event 6', side: 'right', description: 'Final Output' },
+    { id: 1, title: 'Event 6', side: 'left', description: 'Final Output' },
     { id: 2, title: 'Event 1', side: 'left', description: 'Initial Process' },
-    { id: 3, title: 'Event 2', side: 'right', description: 'Data Processing' },
+    { id: 3, title: 'Event 2', side: 'left', description: 'Data Processing' },
     { id: 4, title: 'Event 3', side: 'left', description: 'Validation' },
-    { id: 5, title: 'Event 4', side: 'right', description: 'Transformation' },
+    { id: 5, title: 'Event 4', side: 'left', description: 'Transformation' },
     { id: 6, title: 'Event 5', side: 'left', description: 'Storage' },
 
 ];
