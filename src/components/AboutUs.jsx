@@ -5,9 +5,7 @@ export default function AboutUs() {
     return (
         <div className="w-11/12 mx-auto text-center border border-amber-50 rounded-2xl p-4 sm:p-6 lg:p-8">
             {/* Large "ABOUT" heading */}
-            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[130px] font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400/30 to-purple-500 select-none pointer-events-none mb-6 lg:mb-8">
-                ABOUT
-            </h1>
+            <p className=" text-[80px] md:text-[110px] lg:text-[130px] font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400/30 to-purple-500 select-none pointer-events-none z-0">ABOUT</p>
 
             {/* Content wrapper */}
             <div className="flex flex-col lg:flex-row items-start lg:items-center gap-6 lg:gap-8">
