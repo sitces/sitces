@@ -27,16 +27,16 @@ export default function Team() {
            
 
       {/* POSITION FILTER */}
-      <div className="relative z-30 pointer-events-auto mb-12 flex justify-center border rounded-2xl">
+      <div className="relative z-30 pointer-events-auto mb-12 flex justify-center">
         {positions.map((position) => (
-          <button
+          <p
             type="button"
             key={position}
             onClick={() => {
               console.log("clicked:", position);
               setSelectedPosition(position);
             }}
-            className={`px-5 py-2 rounded-8xl cursor-pointer  text-2xl
+            className={`px-5 py-2 cursor-pointer text-[14px] lg:text-[23px]
               ${
                 selectedPosition === position
                   ? "primary-text-color"
@@ -44,7 +44,7 @@ export default function Team() {
               }`}
           >
             {position}
-          </button>
+          </p>
         ))}
       </div>
 
