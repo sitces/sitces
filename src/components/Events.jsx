@@ -14,7 +14,7 @@ const events = [
 export default function Events() {
     return (
         <div className="w-11/12 mx-auto  text-center border border-amber-50 rounded-2xl mt-10 lg:mt-20">
-            <p className=" text-[80px] md:text-[110px] lg:text-[130px] font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400/30 to-purple-500 select-none pointer-events-none z-0">EVENTS</p>
+            <p className=" text-[70px] md:text-[110px] lg:text-[130px] font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400/30 to-purple-500 select-none pointer-events-none z-0">EVENTS</p>
             <div className="flex items-center justify-center min-h-screen  p-8">
                 <div className="relative w-full max-w-2xl">
                     <div
