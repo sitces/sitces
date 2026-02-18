@@ -15,7 +15,6 @@ import banashree from "../assets/Team/photo-output - Banashree Barman.jpeg";
 import nilkamal from "../assets/Team/NK.jpg";
 
 
-
 const teamMembers = [
   {
     name: "Arnav Biswas",

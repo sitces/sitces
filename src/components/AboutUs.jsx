@@ -3,7 +3,7 @@ import MascotAbout from "../assets/mascot_aboutus.png";
 
 export default function AboutUs() {
     return (
-        <div className="w-11/12 mx-auto text-center border border-amber-50 rounded-2xl p-4 sm:p-6 lg:p-8">
+        <div className="w-11/12 mx-auto text-center border border-amber-50 rounded-2xl p-4 sm:p-6 lg:p-8 " id="about-us">
             {/* Large "ABOUT" heading */}
             <p className=" text-[70px] md:text-[110px] lg:text-[130px] font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400/30 to-purple-500 select-none pointer-events-none z-0">ABOUT</p>
 

@@ -5,7 +5,7 @@ import SITLogo from '../assets/sit-logo-main.png';
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const navItems = ['Home', 'About Us', 'Events', 'Our Team', 'Gallery', 'FAQ'];
+    const navItems = ['Home', 'About Us','Vision', 'Events', 'Team', 'Memories', 'FAQ'];
 
     return (
         <>
@@ -18,7 +18,8 @@ export default function Navbar() {
                     <span className="text-gray-400 sm:inline">|</span>
                     <img src={CESLogo} alt="CES Logo" className="w-6 h-6 sm:w-8 sm:h-8 rounded-full" />
                     <p className="text-xs sm:text-sm lg:text-base font-semibold ml-1 truncate max-w-[120px] sm:max-w-none">
-                        <span className="inline">CES</span>
+                        <span className="inline lg:hidden">CES</span>
+                        <span className='lg:inline hidden'>Computer Engineers' Society</span>
                     </p>
                 </div>
 

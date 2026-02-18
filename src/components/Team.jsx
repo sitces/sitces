@@ -21,7 +21,7 @@ export default function Team() {
         );
 
   return (
-    <section className="relative isolate min-h-screen w-11/12 mx-auto  text-center text-white px-6 py-6 pointer-events-auto text-center border border-amber-50 rounded-2xl mt-10 lg:mt-20">
+    <section className="relative isolate min-h-screen w-11/12 mx-auto  text-center text-white px-6 py-6 pointer-events-auto text-center border border-amber-50 rounded-2xl mt-10 lg:mt-20" id="team">
 
             <p className=" text-[70px] md:text-[110px] lg:text-[130px] font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400/30 to-purple-500 select-none pointer-events-none z-0 text-center">TEAM</p>
            

@@ -3,7 +3,7 @@ import MascotHome from "../assets/mascot_home.png";
 
 export default function Home() {
   return (
-    <section className="relative w-full overflow-x-hidden pt-28 pb-16">
+    <section className="relative w-full overflow-x-hidden pt-28 pb-16 " id="home">
       <div className="w-full px-6 lg:px-0">
 
         <div className="flex flex-col lg:flex-row items-center">
