@@ -113,7 +113,7 @@ const Footer = () => {
                     key={index}
                     onClick={() => handleLinkClick(social.href)}
                     aria-label={social.label}
-                    className="w-12 h-12 bg-black rounded-full flex items-center justify-center text-yellow-400 hover:bg-gray-800 transition-all duration-300 transform hover:scale-110"
+                    className="w-14 h-14 bg-black rounded-full flex items-center justify-center text-yellow-400 hover:bg-gray-800 transition-all duration-300 transform hover:scale-110"
                   >
                     {social.icon}
                   </button>
