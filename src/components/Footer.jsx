@@ -109,26 +109,26 @@ const Footer = () => {
               <h4 className="text-xl font-bold mb-3">Follow Us</h4>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
-                  <button
+                  <a
                     key={index}
-                    onClick={() => handleLinkClick(social.href)}
+                    onClick={() => handleLinkClick(socialLinks.href)}
                     aria-label={social.label}
                     className="w-14 h-14 bg-black rounded-full flex items-center justify-center text-yellow-400 hover:bg-gray-800 transition-all duration-300 transform hover:scale-110"
                   >
                     {social.icon}
-                  </button>
+                  </a>
                 ))}
               </div>
             </div>
 
             <div className="text-center md:text-right">
-              <button
-                onClick={() => handleLinkClick('#about-us')}
-                className="bg-black text-yellow-400 px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 inline-flex items-center space-x-2"
+              <a
+                href="https://chat.whatsapp.com/GHuVDtfqKEJEwHj3rdARQc"
+                className="bg-black text-yellow-400 px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transition-all duration-300 inline-flex items-center space-x-2 cursor-pointer"
               >
                 <span>Join Our Community</span>
                 <ExternalLink size={18} />
-              </button>
+              </a>
             </div>
           </div>
         </div>

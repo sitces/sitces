@@ -5,13 +5,13 @@ import SITLogo from '../assets/sit-logo-main.png';
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const navItems = ['Home', 'About Us','Vision', 'Events', 'Team', 'Memories', 'FAQ'];
+    const navItems = ['Home', 'About Us', 'Vision', 'Events', 'Team', 'Memories', 'FAQ'];
 
     return (
         <>
             {/* Desktop & Tablet Navbar */}
             <nav className="fixed top-4 sm:top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] sm:w-[90%] max-w-6xl bg-white/90 backdrop-blur-md rounded-full px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3 flex justify-between items-center shadow-lg text-black">
-                
+
                 {/* Logo Section */}
                 <div className="flex items-center gap-1.5 sm:gap-2">
                     <img src={SITLogo} alt="SIT Logo" className="w-6 h-6 sm:w-8 sm:h-8 rounded-full" />
@@ -26,9 +26,9 @@ export default function Navbar() {
                 {/* Desktop Navigation Links */}
                 <div className="hidden md:flex gap-4 lg:gap-6 text-[10px] lg:text-[11px] font-bold uppercase tracking-wider">
                     {navItems.map((item) => (
-                        <a 
-                            key={item} 
-                            href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} 
+                        <a
+                            key={item}
+                            href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
                             className="hover:text-cyan-600 transition-colors whitespace-nowrap"
                         >
                             {item}
@@ -42,9 +42,9 @@ export default function Navbar() {
                     className="md:hidden flex flex-col gap-1 w-6 h-6 justify-center items-center text-black"
                     aria-label="Toggle menu"
                 >
-                    <span className={`w-5 h-0.5 bg-black transition-all ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}>|</span>
-                    <span className={`w-5 h-0.5 bg-black transition-all ${isMenuOpen ? 'opacity-0' : ''}`}>|</span>
-                    <span className={`w-5 h-0.5 bg-black transition-all ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}>|</span>
+                    <span className={`w-5 h-0.5 bg-black transition-all ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}>.</span>
+                    <span className={`w-5 h-0.5 bg-black transition-all ${isMenuOpen ? 'opacity-0' : ''}`}>.</span>
+                    <span className={`w-5 h-0.5 bg-black transition-all ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}>.</span>
                 </button>
             </nav>
 

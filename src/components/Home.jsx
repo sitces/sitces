@@ -30,7 +30,7 @@ export default function Home() {
             </p>
 
             <a
-              href="#join-us"
+              href="https://chat.whatsapp.com/GHuVDtfqKEJEwHj3rdARQc"
               className="inline-block bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-purple-100 transition shadow-lg"
             >
               Join Our Community
